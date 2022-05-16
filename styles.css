@@ -1,0 +1,19 @@
+/* dark green is 004e00 */
+
+body {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004e00;
+    padding: 20px;
+    color: white;
+}
+
