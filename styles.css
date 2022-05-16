@@ -54,6 +54,19 @@ body {
     height: auto;
 }
 
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgs img {
+    width: 400px;
+    height: auto;
+    border: solid black;
+    border-radius: 10px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -78,4 +91,12 @@ a {
 }
 a:hover {
     color: orange;
+}
+
+button {
+    max-width: 100px;
+    padding: 6px;
+    background-color: #022e02;
+    color: white;
+    border-radius: 8px;
 }
