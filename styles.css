@@ -42,6 +42,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 75px;
+    flex-wrap: wrap;
 
 }
 
@@ -68,6 +69,7 @@ body {
     align-items: center;
     background-color: #ee81e5;
     padding: 75px;
+    flex-wrap: wrap;
 }
 
 .conquests {
@@ -80,9 +82,8 @@ body {
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
     gap: 15px;
     text-align: center;
 }
@@ -96,6 +97,27 @@ body {
 
 .cards div {
     width: 410px;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    justify-content: center;
+    background-color: #d47bcd;
+}
+
+.quote {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #footer {
