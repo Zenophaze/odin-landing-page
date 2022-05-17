@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    width: 100%;
 }
 
 #header {
@@ -46,7 +47,7 @@ body {
 
 .title-text *{
     margin-top: 16px;
-    width: 600px;
+    width: 500px;
 }
 
 .hero {
@@ -56,7 +57,7 @@ body {
 }
 
 .titleimg img{
-    width: 400px;
+    width: 500px;
     height: auto;
     object-fit: contain;
 }
@@ -66,6 +67,15 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #ee81e5;
+    padding: 75px;
+}
+
+.conquests {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .cards {
@@ -75,14 +85,6 @@ body {
     margin-right: 150px;
     gap: 15px;
     text-align: center;
-}
-
-.conquests {
-    font-size: 36px;
-    padding: 50px;
-    font-weight: 700;
-    text-decoration: underline;
-    font-style: italic;
 }
 
 #imgs img {
@@ -96,16 +98,17 @@ body {
     width: 410px;
 }
 
-
-
 #footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #43074b;
+    width: 100%
+}
+
+.footer {
     padding: 20px;
     color: white;
-    width: 100%
 }
 
 ul{
