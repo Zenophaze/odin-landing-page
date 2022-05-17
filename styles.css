@@ -1,4 +1,5 @@
-/* dark green is 004e00 */
+/* dark purple is 43074b */
+/* light purple is ee81e5 */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -8,14 +9,14 @@ body {
     margin: 0;
 }
 
-.header {
-    background-color: #004e00;
+#header {
+    background-color: #43074b;
     color: white;
     display: flex;
     flex-direction: column;
 }
 
-.top {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #ee81e5;
 }
 
 .cards {
@@ -91,11 +92,11 @@ body {
 
 
 
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #004e00;
+    background-color: #43074b;
     padding: 20px;
     color: white;
     width: 100%
@@ -121,7 +122,7 @@ a:hover {
 button {
     max-width: 100px;
     padding: 6px;
-    background-color: #022e02;
+    background-color: #2e022c;
     color: white;
     border-radius: 8px;
 }
