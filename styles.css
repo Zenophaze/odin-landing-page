@@ -47,7 +47,7 @@ body {
 }
 
 .title-text *{
-    margin-top: 16px;
+    margin-bottom: 16px;
     width: 500px;
 }
 
@@ -102,7 +102,7 @@ body {
 #quote {
     display: flex;
     flex-direction: column;
-    padding: 100px 200px;
+    padding: 100px 300px;
     justify-content: center;
     background-color: #d47bcd;
 }
@@ -118,6 +118,38 @@ body {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 500;
+}
+
+#contact {
+    background-color: #ee81e5;
+    padding: 80px 300px;
+}
+
+.contact {
+    display: flex;
+    border: solid white;
+    border-radius: 50px;
+    background-color: #670c74;
+    padding: 50px 120px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.adtext {
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+
+.adheader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.adbody {
+    font-size: 18px;
+
 }
 
 #footer {
@@ -152,8 +184,10 @@ a:hover {
 
 button {
     max-width: 100px;
+    max-height: 50px;
     padding: 6px;
     background-color: #2e022c;
     color: white;
     border-radius: 8px;
+    flex: 0 0 auto;
 }
